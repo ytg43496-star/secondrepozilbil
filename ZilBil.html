@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZILBIL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+*{margin: 0;
+  padding: 0;  }
+.headblack{width: 100%; height: 25px; background-color: black; color: white; text-align: center; font-family: cursive; }
+.header{width: 100%; height: 75px; background-color: #F5F5F5; }
+#facebook{ float: right; font-size: 30px;  position: relative; right: 10px;}
+#intagram{ float: right; font-size: 30px; position: relative; right: 15px;}
+.mainhead{text-align: center; position: relative; top: 20px; font-weight: bold;}
+.nav{width: 100%; height: 60px; background-color: #E5E4E2; }
+.nav ul li{ text-decoration: none;  margin-left: 10px;float: left; position: relative; left: 320px; font-size: 20px; font-family: cursive;}
+.nav ul{ text-decoration: none; list-style: none;}
+.nav ul li a{ text-decoration: none; color: black; }
+.nav ul li a:hover{text-decoration: underline; color: blueviolet;}
+#search{position: relative; top: 27px; left: 5%; font-size: 20px;}
+#shopping{position: relative; top: 27px;right: 5%; font-size: 20px; float: right;}
+.imgheader{width: 100%; height: 530px; background-color: #BCC6CC;}
+.imghead{width: 100%; height: 530px;}
+.imghead00{ position: relative; margin-top: -310px; text-align: center; font-size: 66px; font-family: Georgia, serif;;}
+.flexcontainer{ width: 100%; height: 461px; background-color: bisque; display: flex; flex-direction: row; position: relative;}
+.box1{ width: 25%; height: 210px;  color: wheat; text-align: center; line-height: 18px; margin: 11px; margin-top: 1.6%; position: relative; }
+.contenthead{ width: 100%; height: 90px; background-color: #ffffff;}
+.content{ text-align: center; position: relative; top: 4%;  font-family: cursive; font-style: italic; font-size: 12px;}
+.content01{ text-align: center; position: relative; top: 6%;  font-family: arial; font-size: 38px; }
+.content02{text-align: center; position: relative; top: 3%; font-family:  Josefin Sans;   font-size: 16px; font-weight: bold; }
+.box1 img{ width: 100%;}
+.maincontent{ width: 100%; height: 700px; background-color: #BCC6CC; position: relative; margin-top: 3%;}
+#mainimgcontent{width: 100%; height: 700px;}
+.imgheadingmain{position: relative; top: -60%; text-align: center;  color: white; font-family: cursive; }
+.imgheadingmain01{ position: relative; top: -59%; text-align: center;  color: rgb(39, 67, 3); font-family: Times "  New Roman", Times, serif; font-size: 90px;}
+.imgheadingmain02{  position: relative; top: -59%; text-align: center;  color: rgb(247, 249, 244); font-family: Times "  New Roman", Times, serif; font-size: 30px;}
+.flexcontainer02{ width: 100%; height: 550px; background-color: rgb(241, 240, 238); display: flex; flex-direction: row; position: relative; margin-top: 5%;}
+.box2{ width: 25%; height: 210px; background-color: black;  color: wheat; text-align: center; line-height: 18px; margin: 11px; margin-top: 1.6%; position: relative; }
+#imgbox2{ width: 100%; height: 450px;}
+.box2image{color: black ; font-size: 24px; font-weight: bold; font-family: cursive; margin-top: 2%; }
+.imageprice{color: black; margin-top: 3%; margin-right: 35%; text-decoration: line-through; font-size: 20px;}
+.imageprice002{color: black; position: relative; top: -8.5%; left: 15%; font-size: 20px;}
+.box2img02{ color: black; font-size: 24px; font-weight: bold; font-family: cursive; margin-top: 2%; }
+.boximagerate{ color: black; margin-top: 3%; margin-right: 35%; text-decoration: line-through; font-size: 20px;}
+.boximagerate02{ color: rgb(0, 0, 0); position: relative; top: -8.5%; left: 15%; font-size: 20px;}
+.box2img03{  color: black; font-size: 24px; font-weight: bold; font-family: cursive; margin-top: 2%; }
+.boximagerate01{ color: black; margin-top: 3%; margin-right: 35%; text-decoration: line-through; font-size: 20px;}
+.boximagerate0002{ color: rgb(0, 0, 0); position: relative; top: -8.5%; left: 15%; font-size: 20px;}
+.box2img04{   color: black; font-size: 24px; font-weight: bold; font-family: cursive; margin-top: 2%;}
+.boximagerate03{ color: black; margin-top: 3%; margin-right: 35%; text-decoration: line-through; font-size: 20px;}
+.boximagerate0004{  color: rgb(0, 0, 0); position: relative; top: -8.5%; left: 15%; font-size: 20px;}
+.mainsweaterpicture{ width: 100%; height: 820px; margin-top: 5%; background-color: beige;}
+#sweaterimg{width: 100%; height: 820px;}
+.sweaterimghead01{ position: relative; top: -70%; text-align: center; color: #E5E4E2; font-size: 26px;}
+.sweaterimage02{ position: relative; text-align: center; top: -570px; color: rgb(5, 52, 5); font-size: 80px; }
+.sweaterimage03{ position: relative; text-align: center; top: -70%; color: #E5E4E2;}
+.footer{width: 100%; height: 280px; background-color: black;font-family: Georgia, serif;  }
+.footer01{color: white; font-size: 15px;  position: relative; left: 5%; top: 17%;}
+.leftfooter ul li{ position: relative; left: 6.3%; top: 43px; text-decoration: none; font-family: fantasy; font-size: 18px; list-style: none; padding-top: 16px;     }
+.leftfooter ul li a{ text-decoration: none; color: #BCC6CC; }
+.leftfooter ul li a:hover{ color: rgb(255, 255, 255); text-decoration: underline;  }
+.centerfooter0{ color: white; font-size: 17px;  position: relative; left: 19%; top: -122.2px;}
+.centerfooter001 ul li{  position: relative; left: 19%; top: -111px; text-decoration: none; font-family: fantasy; font-size: 18px; list-style: none; word-spacing: 5px; margin-bottom: 12px;   }
+.centerfooter001 ul li a{ text-decoration: none; color: #BCC6CC;  }
+.centerfooter001 ul li a:hover{ color: rgb(255, 255, 255); text-decoration: underline; }
+/* .newsletter{ width: 70%; height: 20px; text-align: center; font-family: fantasy; color: black; float: right; position: relative; top: -500%; right:  3%; border-radius: 21px 1px; } */
+.newsletter{ width: 70%; height: 25px; text-align: center; font-family: fantasy; color: black; float: right; margin-top: -11%; margin-right: 1%; border-radius: 0px 0px; position:relative ;  }
+.lastfooterheading{ color: #BCC6CC; float: right; position: relative; margin-top: -14%; right: 17%; font-size: 32px; font-family: Arial, Helvetica, sans-serif;}
+</style>
+<body>
+    <div class="headblack">
+        <h4 class="blackhead">Finally Wait Is Over</h4>
+    </div>
+    <div class="header">
+<i id="facebook" class="fa fa-facebook-square" ></i>
+<i id="intagram" class="fa fa-instagram"></i>
+            <h1 class="mainhead">ZilBil's</h1>
+    </div>
+    <div class="nav">
+        <i id="search" class="fa fa-search"></i>
+     <i id="shopping" class="fa fa-shopping-cart"></i>
+    <ul> <center>
+        <li><a href="">Home</a></li>
+        <li><a href="">Heritage</a></li>
+        <li><a href="">The Monarge's Music</a></li>
+        <li><a href="">Gurka Paints</a></li>
+        <li><a href="">Mao Pack</a></li>
+        <li><a href="">Bundle Pack</a></li>
+
+    </ul>
+    
+    </div>
+       </center>
+       <div class="imgheader">
+            <img class="imghead" src="HandmadeClothingMain2.jpg" alt="">
+            <div class="imghead00">HERITAGE</div>
+           
+       </div>
+       <div class="contenthead">
+        <h6 class="content">VOL- III</h6>
+        <h2 class="content01">THE MONARCH'S MUSE</h2>
+        <h6 class="content02">Preserving the legacy of sophistication, rooted in old money tradition.</h6>
+        
+
+       </div>
+   </div>
+   <div class="flexcontainer">
+    <div class="box1">
+      
+      <img src="IMG_0485.webp" alt="">
+      
+    </div>
+    <div class="box1">
+      <img src="IMG_0448.webp" alt="">
+    </div>
+    <div class="box1">
+      <img src="IMG_0233_34fdef5f-2e91-4767-88fd-e50cec15ce75.webp" alt="">
+    </div>
+    <div class="box1">
+      <img src="IMG_0177.webp" alt="">
+    </div>
+   </div>
+   <div class="maincontent">
+    <img id="mainimgcontent" src="img.jpg" alt="">
+    <h3 class="imgheadingmain">FULL SLEEVES</h3>
+    <h1 class="imgheadingmain01">POLOS</h1>
+    <h4 class="imgheadingmain02">Classic Polos for Modern Elegance.
+
+</h4>
+   </div>
+   <div class="flexcontainer02">
+    <div class="box2">
+      <img id="imgbox2" src="tom james01.jpg" alt="">
+      <h4 class="box2image">Classic Court-Paint </h4> 
+      <h3 class="imageprice">RS-10.999</h3>
+       <h3 class="imageprice002">RS-8.599</h3>
+    </div>
+    <div class="box2">
+    <img id="imgbox2" src="IMG_0025.webp" alt="">
+    <h4 class="box2img02">Classic  Polo-Orange</h4>
+    <h3 class="boximagerate">RS-5.999</h3>
+    <h3 class="boximagerate02"> RS-4.880</h3>
+    </div>
+    <div class="box2">
+      <img id="imgbox2"  src="tom james.jpg" alt="">
+      <h4 class="box2img03">Classic Court-Paint </h4>
+    <h3 class="boximagerate01">RS-15.999</h3>
+    <h3 class="boximagerate0002"> RS-12.320</h3>
+    </div>
+    <div class="box2">
+     <img id="imgbox2" src="polo.webp" alt="">
+      <h4 class="box2img04">Classic Polo-Black </h4>
+    <h3 class="boximagerate03">RS-7.999</h3>
+    <h3 class="boximagerate0004"> RS-6.090</h3>
+    </div>
+   </div>
+        
+<div class="mainsweaterpicture">
+  <img id="sweaterimg" src="footer img.webp" alt="">
+  <h3 class="sweaterimghead01">CABLE KNITTED</h3>
+  <h1 class="sweaterimage02"> SWEATERS</h1>
+  <h2 class="sweaterimage03">Wrap Yourself in Classic Comfort.</h2>
+
+</div>
+  <div class="footer">
+    <h2 class="footer01">
+      OUR COMPANY
+    </h2>
+    <div class="leftfooter">
+      <ul>
+        <li><a href="">About US</a></li>
+         <li><a href="">Contact Us</a></li>
+          <li><a href="">Blog</a></li>
+           <li><a href="">FaQs</a></li>
+            
+      </ul>
+    </div>
+    
+      <div class="centerfooter">
+         <h2 class="centerfooter0">
+      POLICIES
+    </h2>
+    <div class="centerfooter001">
+      <ul>
+        <li><a href="">SHIPPING &   HANDLING</a></li>
+         <li><a href="">EXCHANGE  POLICY</a></li>
+          <li><a href=""> PRIVACY  POLICY</a></li>
+           
+            
+      </ul>
+      <div class="newsletter">
+     <input  class="newsletter" type=" News Letter" name="News Letter"  id="NewsLetter" placeholder="News Letter" required >
+   </div>
+    </div>
+
+    </div>
+      <h3 class="lastfooterheading">
+        ZilBil:s No#1 Brand
+      </h3>
+  </div>
+
+
+</body>
+</html
